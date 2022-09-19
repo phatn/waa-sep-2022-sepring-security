@@ -1,0 +1,140 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#container {
+    margin-bottom: 5rem;
+}
+
+#login {
+    color: #fff;
+}
+
+#login input {
+    height: 1.5rem;
+}
+
+#login button {
+   margin-left: 0.5rem;
+}
+
+#login label {
+    margin-right: 1rem;
+}
+
+.btn-login {
+    margin-left: 0.2rem;
+    height: 3rem;
+    width: 7rem;
+}
+
+#login div.form-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.product-list, .shopping-cart {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.product-list tr, .shopping-cart tr {
+    vertical-align: middle;
+}
+
+img.logo {
+    height: 4rem;
+}
+
+.cart-icon {
+    font-size: 1.8rem;
+}
+
+.cart-icon:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+img.prod-image {
+    height: 2.5rem;
+}
+
+.cart-item-quantity {
+    width: 3rem;
+    text-align: center;
+}
+
+.btn-cart-item {
+    cursor: pointer;
+    font-size: 2rem;
+    vertical-align: -0.4rem;
+}
+
+.btn-cart-plus {
+    color: #4CAF50;
+}
+
+.btn-cart-minus {
+    color: red;
+}
+
+.place-order {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cart-total {
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: right;
+    padding-right: 10rem;
+}
+
+#btn-place-order {
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+}
+
+.alert-popup-container {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 60%
+}
+
+.welcome-user {
+    color: #fff;
+    margin-top: 0.5rem
+}
+
+button.btn-logout {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+input.error {
+    border: 0.08rem solid red;
+}
+
+.form-item #password {
+    margin-top: 0.1rem;
+}
+
+.alert-popup {
+    padding: 2rem;
+}
+
+.btn-cart-disabled {
+    pointer-events: none;
+    color: #c6c6c6;
+}
